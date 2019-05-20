@@ -1,14 +1,11 @@
 function toggleNavigation() {
-  const navigation = 
-  document.getElementById
-  ('mainNavigation');
+  const navigation = document.getElementById('mainNavigation');
 
-  if (navigation.classList.contains
-  ('.isExpanded')) {
-    navigation.classList.remove
-    ('isExpanded');
+  if (navigation.classList.contains('isExpanded')) {
+    console.log(1)
+    navigation.classList.remove('isExpanded');
   } else {
-    navigation.classList.add
-    ('isExpanded')
+    console.log(2)
+    navigation.classList.add('isExpanded')
   }
 }
