@@ -8,8 +8,8 @@ nav ul li {
 
 nav::before {
   font-family: FontAwesome;
-  content: "\f0c9";
-  font-size: 4em;
+  content: "\f142";
+  font-size: 2em;
 }
 
 /* Desktop */
